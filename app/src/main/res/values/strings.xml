@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SCovid Tracker</string>
+    <string name="india">INDIA</string>
+    <string name="conform">Conform</string>
+
+    <string name="active">Active</string>
+    <string name="death">Death</string>
+    <string name="scovid_tracker">SCovid_Tracker</string>
+    <string name="upadeted_at_july_15_2021">Upadeted at July 15,2021</string>
+    <string name="recover">Recover</string>
+
+</resources>
