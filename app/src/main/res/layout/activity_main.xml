@@ -276,6 +276,8 @@
                             android:layout_height="15dp"
                             android:background="#F1D906" />
 
+
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -287,7 +289,20 @@
                             android:textStyle="bold" />
 
 
+
+
                     </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TOTAL CASE"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/TotalConform"
@@ -297,11 +312,25 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="7dp"
                         android:text="123456"
+
                         android:textColor="@color/black"
                         android:textSize="@dimen/title_size"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TODAY CASE"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
                         android:id="@+id/TodayConform"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -355,20 +384,23 @@
                             android:textStyle="bold" />
 
 
+
                     </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TOTAL ACTIVE"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
 
                     <TextView
                         android:id="@+id/TotalActive"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="7dp"
-                        android:text="123456"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/title_size"
-                        android:textStyle="bold" />
-
-                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
@@ -421,6 +453,17 @@
 
 
                     </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TOTAL RECOVER"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/TotalRecover"
@@ -432,6 +475,20 @@
                         android:textColor="@color/black"
                         android:textSize="@dimen/title_size"
                         android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TODAY RECOVER"
+
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
 
                     <TextView
                         android:id="@+id/TodayRecover"
@@ -488,6 +545,17 @@
 
 
                     </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TOTAL DEATH"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/TotalDeath"
@@ -500,6 +568,18 @@
                         android:textSize="@dimen/title_size"
                         android:textStyle="bold"
                         android:layout_marginStart="10dp" />
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:layout_marginLeft="40dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TODAY DEATH" />
+
 
                     <TextView
                         android:id="@+id/TodayDeath"
@@ -544,8 +624,8 @@
                             android:layout_width="15dp"
                             android:layout_height="15dp"
                             android:background="#5E04FD" />
-
                         <TextView
+
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="10dp"
@@ -556,8 +636,21 @@
                             android:textStyle="bold" />
 
 
-                    </LinearLayout>
 
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#272120"
+                        android:textColor="@color/white"
+                        android:text="TOTAL TESTS"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/TotalTest"
@@ -573,6 +666,7 @@
                 </LinearLayout>
 
             </com.google.android.material.card.MaterialCardView>
+
 
 
         </GridLayout>
